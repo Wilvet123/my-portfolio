@@ -29,11 +29,15 @@ const About = () => {
             exit={{ x: -100, opacity: 0 }}
             transition={{ duration: 1, ease: easeIn }}
             className=' font-Josefin px-6 md:px-12 pt-12 md:pt-16 text-white  text-wrap md:text-2xl lg:pl-28 lg:text-xl text-lg'>
-            <p > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
-            <p>Ad dolore dignissimos asperiores dicta facere optio quod commodi nam tempore recusandae. Rerum sed nulla eum vero expedita ex delectus voluptates rem at neque quos facere sequi unde optio aliquam!</p>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
-            <p>Ad dolore dignissimos asperiores dicta facere optio quod commodi nam tempore recusandae. Rerum sed nulla eum vero expedita ex delectus voluptates rem at neque quos facere sequi unde optio aliquam!</p>
-
+            <p>Hi! I'm Yvette Wilcox, a passionate front-end developer. My journey in the world of coding began in August 2022,
+              and it has been an very rewarding experience. With a deep-rooted love for colors, art, and design, I've found my niche in the digital space.
+              Throughout my coding journey, I've had the opportunity to work on some amazing projects independently.
+              These experiences have not only enhanced my technical skills but have also fueled my enthusiasm for creating
+              impactful digital experiences.  I'm currenlty seeking opportunities to collaborate on real-life
+              projects alongside fellow developers and industry professionals.
+              My goal is to contribute my creative perspective and technical prowess to projects that leave a lasting
+              impression. I'm excited to continue growing and learning in this dynamic field while crafting innovative
+              solutions that push the boundaries of design and functionality. </p>
           </motion.div>
         </div>
         <div className='flex gap-7 md:gap-12 items-center justify-center mt-9  text-pink-600  lg:hidden  '>
