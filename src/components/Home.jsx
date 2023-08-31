@@ -6,12 +6,12 @@ import {easeIn, motion} from 'framer-motion'
 
 const HomeVariant = {
   hidden: {
-    opacity:0, y:-50
+    opacity:0, y:-100
   },
   visible: {
     opacity:1, y:0,
     transition: {
-      duration:0.3
+      duration:0.6
     }
   }
 }
@@ -22,7 +22,7 @@ const Home = () => {
     <motion.div
        variants={HomeVariant} 
      initial='hidden'
-     animate='visible'>
+     whileInView='visible'>
     <section id='home'
      className='text-white flex flex-col md:gap-5   h-screen items-center justify-center  '>
      
@@ -30,9 +30,9 @@ const Home = () => {
             <h1   className='font-Style lg:text-8xl md:text-7xl text-pink-600 pb-4'>Yvette Wilcox</h1>
             <h1 className='font-Alegreya md:text-6xl lg:text-7xl'>Front-end Developer.</h1>
           </div>
-          <Link to="/projects" className='border-2  my-6 text-xl z-40 md:text-3xl
+          <a href="#projects" className='border-2  my-6 text-xl z-40 md:text-3xl
            lg:text-3xl bg-pink-600 rounded-full py-2 md:py-4 md:px-5 lg:py-4 lg:px-5 px-3 border-pink-600' >
-          My Projects</Link>
+          My Projects</a>
         
         </section>
         </motion.div>

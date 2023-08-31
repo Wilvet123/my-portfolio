@@ -27,65 +27,101 @@ const Projects = () => {
       
     }
   }
+
+  const projectDetails = [
+    {
+      img: cover,
+      title: "Netflix Clone",
+      details: "A cloned version of the Netflix website"
+    },
+    {
+      img: cover,
+      title: "Netflix Clone",
+      details: "A cloned version of the Netflix website"
+    },
+    {
+      img: cover,
+      title: "Netflix Clone",
+      details: "A cloned version of the Netflix website"
+    },
+    {
+      img: cover,
+      title: "Netflix Clone",
+      details: "A cloned version of the Netflix website"
+    },
+    {
+      img: cover,
+      title: "Netflix Clone",
+      details: "A cloned version of the Netflix website"
+    },
+    {
+      img: cover,
+      title: "Netflix Clone",
+      details: "A cloned version of the Netflix website"
+    },
+    
+
+  ]
  
   const [slide, setSlide] = useState(0)
   return (
-    <section id='projects' className='bg-black px-6 lg:px-24 lg:pt-28 pt-14  md:pt-32 lg:h-screen h-auto'>
+    <section id='projects' className='bg-black px-6 lg:px-24 lg:pt-28 pt-28 pt-14  md:pt-40 lg:h-screen h-auto'>
    
       <motion.h1
           variants={childVariant}
           initial="hidden"
-          animate="visible"
-          className='text-pink-600 lg:text-8xl font-Style text-center font-bold pb-12  md:text-6xl text-5xl'>My Works</motion.h1>   
+          whileInView="visible"
+          className='text-pink-600 lg:text-8xl font-Style text-center font-bold pb-14  md:text-7xl text-5xl'>My Works</motion.h1>   
       <div 
-          className=' flex  font-Alegreya gap-9 font-bold flex-1 flex-wrap  items-center justify-center'>
+          className=' flex px-3 font-Alegreya gap-12 lg:gap-6 md:gap-20 font-bold flex-1 flex-wrap  items-center justify-center'>
+          
         <motion.div variants={childVariant}
         initial="hidden"
-        animate="visible"
-        transition={{duration:0.6}} className='h-[350px] group rounded-lg card w-[500px] bg-white  text-black relative '>
-          <img src={cover } className='object-cover h-[350px] lg:group-hover:h-64 rounded-t-lg duration-300 w-full  ' />
+        whileInView="visible"
+        transition={{duration:0.8}} className='h-[300px] group rounded-lg card w-[500px] bg-white  text-black relative '>
+          <img src={cover } className='object-cover h-[300px] lg:group-hover:h-56 rounded-t-lg duration-300 w-full  ' />
           <h1 className=' text-3xl absolute left-5 font-Alegreya font-bold text-white bottom-12 lg:group-hover:bottom-28 duration-300 '>Netflix Clone</h1>
             <p className='opacity-0 group-hover:opacity-100  duration-300'>A cloned version of the Netflix website</p>
         </motion.div>
        
         <motion.div variants={childVariant}
         initial="hidden"
-        animate="visible"
-        transition={{delay:0.2,duration:0.6}} className='h-[350px] group rounded-lg card w-[500px] bg-white  text-black relative '>
-          <img src={pfolio} className='object-cover h-[350px] group-hover:h-64 rounded-t-lg duration-300 w-full  ' />
+        whileInView="visible"
+        transition={{delay:0.2,duration:0.8}} className='h-[300px] group rounded-lg card w-[500px] bg-white  text-black relative '>
+          <img src={pfolio} className='object-cover h-[300px] group-hover:h-56 rounded-t-lg duration-300 w-full  ' />
           <h1 className=' text-3xl absolute left-5  font-Alegreya font-bold text-white bottom-12  group-hover:bottom-28 duration-300'>Personal Website</h1>
             <p className='opacity-0 group-hover:opacity-100  duration-300'>A cloned version of the Netflix website</p>
         </motion.div>
         <motion.div variants={childVariant}
         initial="hidden"
-        animate="visible"
-        transition={{delay:0.4, duration:0.6}} className='h-[350px] group rounded-lg card w-[500px] bg-white  text-black relative '>
-          <img src={img3} className='object-cover h-[350px] group-hover:h-64 rounded-t-lg duration-300 w-full  ' />
+        whileInView="visible"
+        transition={{delay:0.4, duration:0.8}} className='h-[300px] group rounded-lg card w-[500px] bg-white  text-black relative '>
+          <img src={img3} className='object-cover h-[300px] group-hover:h-56 rounded-t-lg duration-300 w-full  ' />
           <h1 className=' text-3xl absolute left-5  font-Alegreya font-bold text-white bottom-12  group-hover:bottom-32 duration-300'>Notes App</h1>
             <p className='opacity-0 group-hover:opacity-100  duration-300'>A cloned version of the Netflix website</p>
         </motion.div>
         <motion.div variants={childVariant}
         initial="hidden"
-        animate="visible"
-        transition={{duration:0.6}} className='h-[350px] group rounded-lg card w-[500px] bg-white  text-black relative '>
-          <img src={cover } className='object-cover h-[350px] lg:group-hover:h-64 rounded-t-lg duration-300 w-full  ' />
+        whileInView="visible"
+        transition={{duration:0.8}} className='h-[300px] group rounded-lg card w-[500px] bg-white  text-black relative '>
+          <img src={cover } className='object-cover h-[300px] lg:group-hover:h-56 rounded-t-lg duration-300 w-full  ' />
           <h1 className=' text-3xl absolute left-5 font-Alegreya font-bold text-white bottom-12 lg:group-hover:bottom-28 duration-300 '>Netflix Clone</h1>
             <p className='opacity-0 group-hover:opacity-100  duration-300'>A cloned version of the Netflix website</p>
         </motion.div>
        
         <motion.div variants={childVariant}
         initial="hidden"
-        animate="visible"
-        transition={{delay:0.2,duration:0.6}} className='h-[350px] group rounded-lg card w-[500px] bg-white  text-black relative '>
-          <img src={pfolio} className='object-cover h-[350px] group-hover:h-64 rounded-t-lg duration-300 w-full  ' />
+        whileInView="visible"
+        transition={{delay:0.8,duration:0.8}} className='h-[300px] group rounded-lg card w-[500px] bg-white  text-black relative '>
+          <img src={pfolio} className='object-cover h-[300px] group-hover:h-56 rounded-t-lg duration-300 w-full  ' />
           <h1 className=' text-3xl absolute left-5  font-Alegreya font-bold text-white bottom-12  group-hover:bottom-28 duration-300'>Personal Website</h1>
             <p className='opacity-0 group-hover:opacity-100  duration-300'>A cloned version of the Netflix website</p>
         </motion.div>
         <motion.div variants={childVariant}
         initial="hidden"
-        animate="visible"
-        transition={{delay:0.4, duration:0.6}} className='h-[350px] group rounded-lg card w-[500px] bg-white  text-black relative '>
-          <img src={img3} className='object-cover h-[350px] group-hover:h-64 rounded-t-lg duration-300 w-full  ' />
+        whileInView="visible"
+        transition={{delay:1, duration:0.8}} className='h-[300px] group rounded-lg card w-[500px] bg-white  text-black relative '>
+          <img src={img3} className='object-cover h-[300px] group-hover:h-56 rounded-t-lg duration-300 w-full  ' />
           <h1 className=' text-3xl absolute left-5  font-Alegreya font-bold text-white bottom-12  group-hover:bottom-32 duration-300'>Notes App</h1>
             <p className='opacity-0 group-hover:opacity-100  duration-300'>A cloned version of the Netflix website</p>
         </motion.div>
