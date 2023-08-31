@@ -23,7 +23,7 @@ const Home = () => {
        variants={HomeVariant} 
      initial='hidden'
      animate='visible'>
-    <section
+    <section id='home'
      className='text-white flex flex-col md:gap-5   h-screen items-center justify-center  '>
      
           <div className=' px-5 font-bold text-5xl  text-center z-30  max-w-[800px] '>
