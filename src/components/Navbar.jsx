@@ -22,7 +22,7 @@ const Navbar = () => {
               <li  className='p-5 lg:p-12 md:p-6 hover:text-pink-600 duration-300'><a href="#about">About</a></li>
               <li  className='p-5 lg:p-12 md:p-6 hover:text-pink-600 duration-300'><a href="#projects">Projects</a></li>
             </ul>
-            <HiMenuAlt3 onClick={() => setMenu(!menu)} className='text-white block lg:hidden cursor-pointer m-3' size={60}/>
+            <HiMenuAlt3 onClick={() => setMenu(!menu)} className='text-white block lg:hidden cursor-pointer m-3' size={45}/>
           </div>
           <div className={`h-screen  font-bold flex items-center justify-center fixed  left-0 right-0 
            duration-500 ${!menu ? 'top-0' : 'top-[-120%]'} z-50   font-Alegreya text-center
