@@ -11,7 +11,7 @@ const About = () => {
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.8, ease: easeIn }}
-          className='text-pink-600 font-Style lg:text-8xl md:text-7xl font-bold text-5xl'>About Me</motion.h1>
+          className='text-pink-600 font-Style lg:text-7xl md:text-7xl font-bold text-5xl'>About Me</motion.h1>
         <div className='flex flex-col lg:flex-row gap-x-28 lg:pt-20 md:pt-16 pt-8 items-center justify-between'>
           <motion.div
             className=' px-12 relative'>

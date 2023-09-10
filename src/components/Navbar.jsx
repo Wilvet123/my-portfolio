@@ -14,7 +14,7 @@ const Navbar = () => {
           <div className="z-50 flex fixed top-5 lg:top-5 md:left-6 md:right-6 md:top-9 md:h-20 md:px-9
            justify-between items-center h-14 lg:h-20 lg:px-12 p-2 
            rounded-full mx-6 left-2 right-2  backdrop-blur-3xl">
-            <div className='font-Style cursor-pointer text-pink-600 lg:pl-9 lg:text-5xl md:text-4xl text-3xl z-11 font-bold'>
+            <div className='font-Style cursor-pointer text-pink-600 lg:pl-9 lg:text-4xl md:text-4xl text-3xl z-11 font-bold'>
               YW
             </div>
             <ul className=' lg:text-2xl md:text-5xl hidden lg:flex justify-center items-center'>

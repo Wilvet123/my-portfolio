@@ -71,7 +71,7 @@ const Projects = () => {
           variants={childVariant}
           initial="hidden"
           whileInView="visible"
-          className='text-pink-600 lg:text-8xl font-Style text-center font-bold pb-14  md:text-7xl text-5xl'>My Works</motion.h1>   
+          className='text-pink-600 lg:text-7xl font-Style text-center font-bold pb-14  md:text-7xl text-5xl'>My Works</motion.h1>   
       <div 
           className=' flex px-3 font-Alegreya gap-12 lg:gap-6 md:gap-20 font-bold flex-1 flex-wrap  items-center justify-center'>
           
