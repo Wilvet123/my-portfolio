@@ -29,14 +29,13 @@ const About = () => {
             exit={{ x: -100, opacity: 0 }}
             transition={{ duration: 0.8, ease: easeIn }}
             className=' font-Josefin  md:px-24 px-3  text-center pt-12 md:pt-16  lg:pt-0 text-white  lg:text-start md:text-2xl  lg:text-xl text-lg'>
-            <p>Hi! I'm Yvette Wilcox, a passionate front-end developer. My journey into the world of coding began in August 2022,
-              and it has been a very rewarding experience. With a deep-rooted love for colors, art, and design, I've found my niche in the digital space.</p>
+            <p>Hi! I'm Yvette Wilcox and I am a front-end developer. My journey into the world of coding began in August 2022,
+              and it has been a very rewarding experience. With my love for colors, art, and design, I've found my niche in the digital space.</p>
              <br></br> <p>Throughout my coding journey, I've had the opportunity to work on some amazing projects independently.</p>
-              <p>These experiences have not only enhanced my technical skills but have also fueled my enthusiasm for creating
+              <p>These experiences have not only enhanced my technical skills but have also made more excited for creating
               impactful digital experiences. </p>
               <br></br> <p> I'm currenlty seeking opportunities to collaborate on real-life
-              projects alongside fellow developers and industry professionals. My goal is to contribute my creative perspective and technical prowess to projects that leave a lasting
-              impression. I'm excited to continue growing and learning in this dynamic field while crafting innovative
+              projects alongside fellow developers and industry professionals. I'm excited to continue growing and learning in this dynamic field while workin on innovative
               solutions that push the boundaries of design and functionality. </p>
           </motion.div>
         </div>

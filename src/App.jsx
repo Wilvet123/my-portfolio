@@ -16,7 +16,7 @@ function App() {
       
     
     <div className='lg:flex flex-col gap-12 fixed text-pink-600 right-36 hidden top-[70%] '>
-        <motion.a href='' whileHover={{scale:0.85}}><AiFillMail size={40}/></motion.a>
+        <motion.a href='mailto:wilcoxyvette2000@gmail.com' whileHover={{scale:0.85}}><AiFillMail size={40}/></motion.a>
         <motion.a href="https://ng.linkedin.com/in/yvette-wilcox-776077214" whileHover={{scale:0.85}}><BsLinkedin size={40}/></motion.a>
         <motion.a href='https://github.com/Wilvet123' whileHover={{scale:0.85}}><BsGithub size={40}/></motion.a>
       </div>
